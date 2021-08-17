@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.joke-btn {
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: pink;
+  border: none;
+  border-radius: 5px;
+}
+.joke-btn:hover {
+  border: 2px solid orange;
+}
+.joke-btn:active {
+  transform: scale(0.8);
+}
+.joke-btn:disabled {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: default;
+  border: 2px solid black;
+}
